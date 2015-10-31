@@ -1,0 +1,35 @@
+{
+	"name": "Feature",
+	"type": "record",
+	"namespace": "io.karst.schemas",
+	"fields": [
+		{"name": "uuid", "type": "string"},
+		{"name": "name", "type": "string"},
+		{"name": "code", "type": ["null","string"]},
+
+		{"name": "length", "type": "int"},
+		{"name": "depth", "type": "int"},
+
+		{"name": "entrances", "type": ["null", "io.karst.schemas.Entrance"]},
+
+		{"name": "discovered", "type": ["null","long"]},
+		{"name": "discovered_by", "type": "string"},
+		{"name": "created", "type": "long"},
+		{"name": "created_by", "type":"string"},
+		{"name": "last_modified", "type":"long"},
+		{"name": "last_modified_by", "type":"string"},
+
+		{"name": "narrative", "type":"string"},
+
+		{"name": "maps", "type": {
+			"type": "array", 
+			"items": ["null", "io.karst.schemas.Image"]
+		}},
+
+		{"name": "photos", "type": {
+			"type": "array", 
+			"items": ["null","io.karst.schemas.Image"]
+		}}
+	]
+}
+
