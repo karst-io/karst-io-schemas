@@ -101,7 +101,7 @@
         "hazards_description": {
             "type": "string"
         },
-        "location_datum": {
+        "coordinates": {
             "description": "coordinates associated with entrance",
             "type": "array",
             "$ref": "http://schemas.karst.io/schemas/v1/coordinate"
