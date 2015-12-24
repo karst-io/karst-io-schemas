@@ -69,12 +69,12 @@
             "description": "Entrance Geologic Formation",
             "type": "string"
         },
-        "location": {
+        "field_indication": {
             "description": "Physical Location and Surroundings",
             "type": "string",
-            "enum": ["UNKNOWN", "CLIFF", "BLUFF OR HEADWALL", "BENCH", "OUTCROP", "STREAMBED", "NO INDICATION"]
+            "enum": ["UNKNOWN", "HILLSIDE", "CLIFF", "BLUFF OR HEADWALL", "BENCH", "OUTCROP", "SINK", "STREAMBED", "ROAD CUT", "QUARRY", "NO INDICATION"]
         },
-        "location_description": {
+        "field_indication_description": {
             "type":"string"
         },
         "characteristics": {
@@ -88,7 +88,7 @@
         "hydrology": {
             "description": "Hydrology associated with entrance",
             "type": "string",
-            "enum": ["UNKNOWN", "NONE", "SUBMERGED", "WATER (IN)", "WATER (OUT)"]
+            "enum": ["UNKNOWN", "NONE", "SUBMERGED", "WATER IN", "WATER OUT", "LAKE OR POOL"]
         },
         "hydrology_description": {
             "type":"string"
