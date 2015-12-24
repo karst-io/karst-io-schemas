@@ -26,6 +26,10 @@
         "recorded_by": {
             "type": "string",
             "description": "Person who took coordinates"
+        },
+        "accuracy": {
+            "type": "int",
+            "description": "accuracy (+/-)",
         }
     },
     "required": ["id","system", "latitude", "longitude"]
