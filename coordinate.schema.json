@@ -13,6 +13,10 @@
         	"type": "string",
             "enum": ["WGS84", "NAD83", "NAD27"]
         },
+        "format": {
+            "type": "string",
+            "enum": ["DMS", "DD", "DDM"]
+        },
         "latitude": {
             "type":"number"
         },
