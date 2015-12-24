@@ -106,6 +106,10 @@
             "type": "array",
             "$ref": "http://schemas.karst.io/schemas/v1/coordinate"
         },
+        "elevation": {
+            "type":"int",
+            "description": "elevation"
+        },
         "largest_dimension": {
             "type": "int",
         },
