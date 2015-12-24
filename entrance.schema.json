@@ -33,10 +33,10 @@
         "ownership": {
             "description": "Ownership Classification",
             "type": "string",
-            "enum": ["UNKNOWN","COMMERCIAL","GOVERNMENT","PRIVATE PROPERTY"]
+            "enum": ["UNKNOWN","COMMERCIAL","GOVERNMENT","PRIVATE PROPERTY","CONSERVANCY"]
         },
         "ownership_description": {
-            "description": "Description to accompoany Entrance Status Ownership",
+            "description": "Description to accompany Entrance Status Ownership",
             "type": "string"
         },
         "type": {
