@@ -18,17 +18,17 @@
         },
         "length": {
         		"description": "feature total horizontal length",
-        		"type":"int",
-        		"minimum": 1,
+        		"type":"integer",
+        		"minimum": 1
         },
         "depth": {
         		"description": "feature total vertical depth",
-        		"type":"int",
-        		"minimum": 1,
+        		"type":"integer",
+        		"minimum": 1
         },
         "narrative": {
         		"description": "Cave narrative",
-        		"type": "string",
+        		"type": "string"
         },
         "entrances": {
         		"type": "array",
